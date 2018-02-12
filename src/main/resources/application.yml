@@ -1,0 +1,21 @@
+server:
+  port: 18889
+  sessionTimeOut: 1800
+
+
+
+# 数据源配置
+db:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:8066/userdb
+  username: bzw
+  password: 123456
+
+
+# 使用CGLIB来实现AOP
+spring:
+  aop:
+    proxy-target-class: false
+
+hello:
+  msg: world

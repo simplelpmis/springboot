@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bzw.web.backmgmt.mapper.SigninMapper">
+
+    <resultMap id="signinMap" type="com.bzw.web.backmgmt.entity.Signin">
+        <id property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="recentSignDay" column="recent_sign_day"/>
+        <result property="countContinuousDays" column="count_continuous_days"/>
+        <result property="countTotalDays" column="count_total_days"/>
+    </resultMap>
+
+    <select id="getSignByUid" parameterType="int" resultMap="signinMap">
+        select * from signin where uid = #{uid}
+    </select>
+
+    <insert id="insert" parameterType="com.bzw.web.backmgmt.entity.Signin">
+        INSERT INTO signin
+        (uid,recent_sign_day,count_continuous_days,count_total_days)
+        VALUES
+        (#{signin.uid}, #{signin.recentSignDay}, #{signin.countContinuousDays}, #{signin.countTotalDays})
+    </insert>
+
+</mapper>
