@@ -1,4 +1,4 @@
-package com.bzw.web.backmgmt.configuration;
+package com.simple.web.admin.configuration;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;

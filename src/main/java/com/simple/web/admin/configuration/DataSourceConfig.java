@@ -1,4 +1,4 @@
-package com.bzw.web.backmgmt.configuration;
+package com.simple.web.admin.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;

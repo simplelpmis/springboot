@@ -1,6 +1,6 @@
-package com.bzw.web.backmgmt;
+package com.simple.web.admin;
 
-import com.bzw.web.backmgmt.dto.SocketMessage;
+import com.simple.web.admin.dto.SocketMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

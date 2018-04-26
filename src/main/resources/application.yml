@@ -19,3 +19,5 @@ spring:
 
 hello:
   msg: world
+  world: hello world
+  cron: '*/5 * * * * ?' #每5s执行一次

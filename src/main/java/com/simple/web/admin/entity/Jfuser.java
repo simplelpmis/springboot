@@ -1,4 +1,4 @@
-package com.bzw.web.backmgmt.entity;
+package com.simple.web.admin.entity;
 
 import lombok.Data;
 

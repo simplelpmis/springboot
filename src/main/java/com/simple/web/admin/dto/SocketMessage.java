@@ -1,4 +1,4 @@
-package com.bzw.web.backmgmt.dto;
+package com.simple.web.admin.dto;
 
 import lombok.Data;
 

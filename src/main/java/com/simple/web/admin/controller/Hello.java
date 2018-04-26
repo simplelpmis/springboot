@@ -1,4 +1,4 @@
-package com.bzw.web.backmgmt.controller;
+package com.simple.web.admin.controller;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import org.springframework.beans.factory.annotation.Autowired;

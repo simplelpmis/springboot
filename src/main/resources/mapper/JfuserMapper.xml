@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bzw.web.backmgmt.mapper.JfuserMapper">
-    <insert id="insert" parameterType="com.bzw.web.backmgmt.entity.Jfuser" >
+<mapper namespace="com.simple.web.admin.mapper.JfuserMapper">
+    <insert id="insert" parameterType="com.simple.web.admin.entity.Jfuser" >
         INSERT INTO jfuser
         (uid,name)
         VALUES
