@@ -8,7 +8,7 @@ server:
 db:
   driver-class-name: com.mysql.jdbc.Driver
   url: jdbc:mysql://localhost:8066/userdb
-  username: bzw
+  username: simba
   password: 123456
 
 
